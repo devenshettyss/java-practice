@@ -5,11 +5,23 @@ public class User {
 	private long mobileNumber;
 	private byte age;
 	
+	//constructor
+	
 	public void workout() {
 		// TODO Auto-generated method stub
 		System.out.println(name+"is working out.");
 	}
 	
+	//custom constructor
+	public User(String name, long mobileNumber, byte age) {
+		super();
+		this.name = name;
+		this.mobileNumber = mobileNumber;
+		this.age = age;
+	}
+	
+	
+
 	public String getName() {
 		return name;
 	}
