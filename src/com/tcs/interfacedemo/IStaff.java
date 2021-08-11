@@ -1,6 +1,6 @@
 package com.tcs.interfacedemo;
 
-public interface Staff {
+public interface IStaff {
 void work(); 
 abstract void test1();
 	

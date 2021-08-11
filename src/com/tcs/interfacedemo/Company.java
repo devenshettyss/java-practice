@@ -7,10 +7,10 @@ public class Company {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Staff staff = new HR();
+		IStaff staff = new HR();
 		staff.work();
-		Staff staff1 = new Guard();
-		List<Staff> allStaff = new ArrayList<Staff>();
+		IStaff staff1 = new Guard();
+		List<IStaff> allStaff = new ArrayList<IStaff>();
 		allStaff.add(staff);
 		allStaff.add(staff1);
 		allStaff.add(staff1);
