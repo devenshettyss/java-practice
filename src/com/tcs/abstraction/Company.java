@@ -5,6 +5,8 @@ public class Company {
 		Staff staff = new HR();
 		staff.work();
 		
+		
+		
 		Staff staff1 = new Guard();
 		staff1.work();
 	}
