@@ -2,6 +2,7 @@ package com.tcs.set.examples;
 
 import java.util.HashSet;
 import java.util.Set;
+import java.util.TreeSet;
 
 public class SetExamples {
 
@@ -11,8 +12,16 @@ public class SetExamples {
 		treeSetDemo();
 	}
 
-	private static void treeSetDemo() {
+	private static Set<User> treeSetDemo() {
 		// TODO Auto-generated method stub
+		Set<User> users = new TreeSet<User>();
+		for(int i=0;i<20;i++) {
+			User user = new User();
+			user.setAge(10+i);
+			users.add(user);
+			
+		}
+		return users;
 		
 	}
 
